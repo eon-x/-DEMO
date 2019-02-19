@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<meta name="format-detection" content="telephone=no,address=no,email=no">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-touch-fullscreen" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<link rel="stylesheet" href="css/rankstyle.css">
+		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="fonts/font-awesome-4.5.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="css/icons.css" />
+		<script src="js/adaptive.js"></script>
+	</head>
+
+	<body>		
+		<div id="top">
+			<div class="navMarginTop">
+				<!--<header> 挑战 </header>-->
+				<!-- 一级tab -->
+				<!--<div class="firstTab">
+					<ul class="clearfix">
+						<li>
+							<span>挑战赛</span>
+							<div class="underLine"></div>
+						</li>
+						<li>
+							<span>步数排行榜</span>
+							<div class="underLine"></div>
+						</li>
+						
+					</ul>
+				</div>-->
+				<!-- 封面 -->
+				<div class="covers">
+					<img src="" class="bgImg" />
+					<div class="topOne clearfix">
+						<div class="topOneH fl"><img class="userImage" src="" /></div>
+						<h5 class="fl"><span class="userName"></span>占领了封面</h5>
+					</div>
+					<div class="topOneMain">
+						<div class="topOne-stepNum fl">
+							<img src="images/res/step@2x.png" alt="" class="fl" />
+							<span class="fl userStepGoal">10000步</span>
+						</div>
+						<div class="topOne-concern fr">
+							<img src="images/res/number@2x.png" alt="" class="fl" />
+							<span class="fl personNum"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 二级tab -->
+			<div class="swiper-container" id="nav">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<span style="color:rgba(255, 19, 83,1);">全球</span>
+					</div>
+					<div class="swiper-slide">
+						<span>全国</span>
+					</div>
+					<div class="swiper-slide">
+						<span>关注</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="swiper-container" id="page">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide slidepage swiper-no-swiping">
+					<div class="swiper-container scroll">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide slidescroll">
+								<div class="global_rank">
+									<div class="Myranking">
+										<div class="headIcon">
+											<span><img class="userImg" src=''/></span>
+										</div>
+										<dl>
+											<dt>
+												<div class="shadowDiv"></div>
+												<div class="showDiv"></div>
+											</dt>
+											<dd class="clearfix">
+												<div class="numWrap fl">
+													<span>NO.</span><em class="userStepRank"></em>
+												</div>
+												<div class="stepNum fr userStepNum"></div>
+											</dd>
+										</dl>
+										<div class="heartWrap">
+											<p class="heartNum"></p>
+											<div class="likesImg"></div>
+										</div>
+									</div>
+									<div class="jange"></div>
+									<div class="rank_list_global"></div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide slidepage swiper-no-swiping">
+					<div class="swiper-container scroll">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide slidescroll">
+								<div class="country_rank">
+									<div class="Myranking">
+										<div class="headIcon">
+											<span><img class="userImg" src=''/></span>
+										</div>
+										<dl>
+											<dt>
+												<div class="shadowDiv"></div>
+												<div class="showDiv"></div>
+											</dt>
+											<dd class="clearfix">
+												<div class="numWrap fl">
+													<span>NO.</span><em class="userStepRank"></em>
+												</div>
+												<div class="stepNum fr userStepNum"></div>
+											</dd>
+										</dl>
+										<div class="heartWrap">
+											<p class="heartNum"></p>
+											<div class="likesImg"></div>
+										</div>
+									</div>
+									<div class="jange"></div>
+									<div class="rank_list_country"></div>
+																																
+								</div>							
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide slidepage swiper-no-swiping">
+					<div class="swiper-container scroll">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide slidescroll">
+								<div class="concern_rank">
+									<div class="Myranking">
+										<div class="headIcon">
+											<span><img class="userImg" src=''/></span>
+										</div>
+										<dl>
+											<dt>
+												<div class="shadowDiv"></div>
+												<div class="showDiv"></div>
+											</dt>
+											<dd class="clearfix">
+												<div class="numWrap fl">
+													<span>NO.</span><em class="userStepRank"></em>
+												</div>
+												<div class="stepNum fr userStepNum"></div>
+											</dd>
+										</dl>
+										<div class="heartWrap">
+											<p class="heartNum"></p>
+											<div class="likesImg"></div>
+										</div>
+									</div>
+									<div class="jange"></div>
+									<div class="rank_list_concern"></div>
+									
+									<div class="addConcern">
+										<p>一个人的排行榜有点孤单</p>
+										<button class="addConcernBtn" onclick="addConcernBtn()">添加关注</button>
+									</div>
+									
+								</div>
+
+							
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<script src="js/zepto.min.js"></script>
+		<script src="js/swiper.min.js"></script>
+		<script src="js/common.js"></script>
+		<script src="js/changeModel.js"></script>
+		<script src="js/rankindex.js"></script>
+        <script>
+            var addConcernBtn = function()
+            {
+                var callInfo = JSON.stringify({"kkkkkkkey": "JS给OC传值","image":"http://ddddd"});
+                VeryFitPlus.getCall(callInfo);
+                VeryFitPlus.clickAddFollowsButton();
+            }
+        </script>
+	</body>
+
+</html>

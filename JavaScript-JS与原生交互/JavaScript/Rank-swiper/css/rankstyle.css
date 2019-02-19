@@ -1,0 +1,108 @@
+/*swiper*/
+ html,body {
+	position:relative;
+	height:100%;
+}
+html {
+	overflow:hidden;
+}
+* {
+	padding:0;
+	margin:0;
+}
+li {
+	list-style:none;
+}
+body {
+	background:#fff;
+	font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size:12px;
+}
+.topWrap{
+	position: relative;
+	height:100%;
+}
+#top {
+	position:absolute;
+	top:0;
+	z-index:5;
+	width:100%;
+	background:#fff;
+}
+#nav {
+	border: none;
+	background: #0a0607;
+}
+#nav .swiper-slide span {
+	margin:0 0.05rem;
+	text-align:center;
+	display:block;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	font-size:0.28rem;
+	color:#999;
+}
+#nav .bar {
+	width:1rem;
+	height:0.04rem;
+	position:absolute;
+	bottom:0px;
+}
+#nav .bar .color {
+	width:0.72rem;
+	margin:0 auto;
+	height:0.04rem;
+	background:#ff1353;
+}
+#page {
+	margin-bottom:0.5rem;
+	height:100%;
+	/*禁止滑动*/
+	overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+}
+#page .slidepage {
+	min-height:100%;
+}
+/*#page .swiper-container{
+	overflow: auto;
+}
+#nav .swiper-container{
+	overflow: auto;
+}*/
+.scroll {
+	min-height:100%;
+}
+.slidescroll {
+	height:auto;
+}
+.concern_rank .rank_name span{
+	color: #fff;
+	font-size: 0.24rem;
+}
+.concern_rank .middle-content .rank_name p{
+	 margin-bottom: 0.15rem;
+}
+.concern_rank .addConcern{ 
+	    margin-top: 1.54rem;
+    text-align: center;
+}
+.concern_rank .addConcern p{
+	color: #666;
+    font-size: 0.32rem;
+    margin-bottom: 0.3rem;
+}
+.concern_rank .addConcern .addConcernBtn{
+	border: none;
+    background: #ff1353;
+    width: 2.48rem;
+    border-radius: 0.1rem;
+    height: 0.88rem;
+    color: #fff;
+    font-size: 0.28rem;
+}
+#page .headIcon img{
+	height: 0.72rem;
+    width: 0.72rem;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    </head>
+    <body>
+        <br>
+        <br>
+        <div style="margin-top: 20px">
+            <h2>JS与OC交互</h2>
+            <input type="button" value="唤起本地方法(call)" onclick="VeryFitPlus.call()">
+        </div>
+        <br>
+        <br>
+        <div>
+            <input type="button" value="唤起getCall:(NSString *)callString传值" onclick="call()">
+        </div>
+
+        <script>
+            
+            var call = function()
+            {
+                var callInfo = JSON.stringify({"kkkkkkkey": "JS给OC传值"});
+                xiongze.getCall(callInfo);
+            }
+        
+            var Callback = function(str)
+            {
+                alert(str);
+            }
+        
+            var alerCallback = function()
+            {
+                alert('成功');
+            }
+        
+        </script>
+    </body>
+</html>

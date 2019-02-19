@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3441BB2E1FEB98D5008E8A4D /* AppDelegate+ThirdLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3441BB2D1FEB98D5008E8A4D /* AppDelegate+ThirdLogin.m */; };
+		DB0C4E201FEA70F700F3D9F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0C4E1F1FEA70F700F3D9F7 /* AppDelegate.m */; };
+		DB0C4E231FEA70F700F3D9F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0C4E221FEA70F700F3D9F7 /* ViewController.m */; };
+		DB0C4E261FEA70F700F3D9F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0C4E241FEA70F700F3D9F7 /* Main.storyboard */; };
+		DB0C4E281FEA70F700F3D9F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0C4E271FEA70F700F3D9F7 /* Assets.xcassets */; };
+		DB0C4E2B1FEA70F700F3D9F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0C4E291FEA70F700F3D9F7 /* LaunchScreen.storyboard */; };
+		DB0C4E2E1FEA70F700F3D9F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0C4E2D1FEA70F700F3D9F7 /* main.m */; };
+		DB0C4E451FEA72A200F3D9F7 /* TwitterShareExtensionUIResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DB0C4E401FEA72A200F3D9F7 /* TwitterShareExtensionUIResources.bundle */; };
+		DB0C4E471FEA72A200F3D9F7 /* Twitter.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB0C4E421FEA72A200F3D9F7 /* Twitter.plist */; };
+		DB0C4E481FEA72A200F3D9F7 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DB0C4E431FEA72A200F3D9F7 /* TwitterKitResources.bundle */; };
+		DB0C4E4B1FEA72F000F3D9F7 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0C4E4A1FEA72F000F3D9F7 /* SafariServices.framework */; };
+		DB0C4E531FEA757A00F3D9F7 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0C4E521FEA757A00F3D9F7 /* CoreMedia.framework */; };
+		DB0C4E551FEA75F000F3D9F7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0C4E541FEA75F000F3D9F7 /* AVFoundation.framework */; };
+		DB0C4E5F1FEA790C00F3D9F7 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0C4E561FEA790B00F3D9F7 /* Bolts.framework */; };
+		DB0C4E601FEA790C00F3D9F7 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DB0C4E571FEA790B00F3D9F7 /* GoogleSignIn.bundle */; };
+		DB0C4E611FEA790C00F3D9F7 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0C4E581FEA790B00F3D9F7 /* GoogleSignIn.framework */; };
+		DB0C4E621FEA790C00F3D9F7 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0C4E591FEA790B00F3D9F7 /* FBSDKCoreKit.framework */; };
+		DB0C4E631FEA790C00F3D9F7 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0C4E5A1FEA790B00F3D9F7 /* TwitterKit.framework */; };
+		DB0C4E641FEA790C00F3D9F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB0C4E5B1FEA790C00F3D9F7 /* GoogleService-Info.plist */; };
+		DB0C4E651FEA790C00F3D9F7 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0C4E5C1FEA790C00F3D9F7 /* FBSDKLoginKit.framework */; };
+		DB0C4E661FEA790C00F3D9F7 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0C4E5D1FEA790C00F3D9F7 /* GoogleSignInDependencies.framework */; };
+		DB0C4E691FEA796800F3D9F7 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0C4E681FEA796800F3D9F7 /* TwitterCore.framework */; };
+		DB0C4E6A1FEA7A1700F3D9F7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0C4E4E1FEA751C00F3D9F7 /* SystemConfiguration.framework */; };
+		DB0C4E6D1FEA804F00F3D9F7 /* DOSigninManagerV2.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0C4E6B1FEA804E00F3D9F7 /* DOSigninManagerV2.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3441BB2C1FEB98D5008E8A4D /* AppDelegate+ThirdLogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+ThirdLogin.h"; sourceTree = "<group>"; };
+		3441BB2D1FEB98D5008E8A4D /* AppDelegate+ThirdLogin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+ThirdLogin.m"; sourceTree = "<group>"; };
+		DB0C4E1B1FEA70F700F3D9F7 /* DOSigninFW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DOSigninFW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0C4E1E1FEA70F700F3D9F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB0C4E1F1FEA70F700F3D9F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB0C4E211FEA70F700F3D9F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB0C4E221FEA70F700F3D9F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB0C4E251FEA70F700F3D9F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB0C4E271FEA70F700F3D9F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB0C4E2A1FEA70F700F3D9F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB0C4E2C1FEA70F700F3D9F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB0C4E2D1FEA70F700F3D9F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB0C4E401FEA72A200F3D9F7 /* TwitterShareExtensionUIResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterShareExtensionUIResources.bundle; path = TwitterKit.framework/TwitterShareExtensionUIResources.bundle; sourceTree = "<group>"; };
+		DB0C4E421FEA72A200F3D9F7 /* Twitter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Twitter.plist; sourceTree = "<group>"; };
+		DB0C4E431FEA72A200F3D9F7 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		DB0C4E4A1FEA72F000F3D9F7 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		DB0C4E4C1FEA750A00F3D9F7 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		DB0C4E4E1FEA751C00F3D9F7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DB0C4E501FEA752200F3D9F7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DB0C4E521FEA757A00F3D9F7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		DB0C4E541FEA75F000F3D9F7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DB0C4E561FEA790B00F3D9F7 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		DB0C4E571FEA790B00F3D9F7 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		DB0C4E581FEA790B00F3D9F7 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
+		DB0C4E591FEA790B00F3D9F7 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		DB0C4E5A1FEA790B00F3D9F7 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		DB0C4E5B1FEA790C00F3D9F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DB0C4E5C1FEA790C00F3D9F7 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		DB0C4E5D1FEA790C00F3D9F7 /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignInDependencies.framework; sourceTree = "<group>"; };
+		DB0C4E681FEA796800F3D9F7 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		DB0C4E6B1FEA804E00F3D9F7 /* DOSigninManagerV2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOSigninManagerV2.m; sourceTree = "<group>"; };
+		DB0C4E6C1FEA804E00F3D9F7 /* DOSigninManagerV2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOSigninManagerV2.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB0C4E181FEA70F700F3D9F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0C4E6A1FEA7A1700F3D9F7 /* SystemConfiguration.framework in Frameworks */,
+				DB0C4E611FEA790C00F3D9F7 /* GoogleSignIn.framework in Frameworks */,
+				DB0C4E551FEA75F000F3D9F7 /* AVFoundation.framework in Frameworks */,
+				DB0C4E651FEA790C00F3D9F7 /* FBSDKLoginKit.framework in Frameworks */,
+				DB0C4E531FEA757A00F3D9F7 /* CoreMedia.framework in Frameworks */,
+				DB0C4E661FEA790C00F3D9F7 /* GoogleSignInDependencies.framework in Frameworks */,
+				DB0C4E691FEA796800F3D9F7 /* TwitterCore.framework in Frameworks */,
+				DB0C4E4B1FEA72F000F3D9F7 /* SafariServices.framework in Frameworks */,
+				DB0C4E5F1FEA790C00F3D9F7 /* Bolts.framework in Frameworks */,
+				DB0C4E621FEA790C00F3D9F7 /* FBSDKCoreKit.framework in Frameworks */,
+				DB0C4E631FEA790C00F3D9F7 /* TwitterKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB0C4E121FEA70F600F3D9F7 = {
+			isa = PBXGroup;
+			children = (
+				DB0C4E341FEA713C00F3D9F7 /* Framework */,
+				DB0C4E1D1FEA70F700F3D9F7 /* DOSigninFW */,
+				DB0C4E1C1FEA70F700F3D9F7 /* Products */,
+				DB0C4E491FEA72EF00F3D9F7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB0C4E1C1FEA70F700F3D9F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB0C4E1B1FEA70F700F3D9F7 /* DOSigninFW.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB0C4E1D1FEA70F700F3D9F7 /* DOSigninFW */ = {
+			isa = PBXGroup;
+			children = (
+				DB0C4E1E1FEA70F700F3D9F7 /* AppDelegate.h */,
+				DB0C4E1F1FEA70F700F3D9F7 /* AppDelegate.m */,
+				3441BB2C1FEB98D5008E8A4D /* AppDelegate+ThirdLogin.h */,
+				3441BB2D1FEB98D5008E8A4D /* AppDelegate+ThirdLogin.m */,
+				DB0C4E6C1FEA804E00F3D9F7 /* DOSigninManagerV2.h */,
+				DB0C4E6B1FEA804E00F3D9F7 /* DOSigninManagerV2.m */,
+				DB0C4E211FEA70F700F3D9F7 /* ViewController.h */,
+				DB0C4E221FEA70F700F3D9F7 /* ViewController.m */,
+				DB0C4E241FEA70F700F3D9F7 /* Main.storyboard */,
+				DB0C4E271FEA70F700F3D9F7 /* Assets.xcassets */,
+				DB0C4E291FEA70F700F3D9F7 /* LaunchScreen.storyboard */,
+				DB0C4E2C1FEA70F700F3D9F7 /* Info.plist */,
+				DB0C4E2D1FEA70F700F3D9F7 /* main.m */,
+			);
+			path = DOSigninFW;
+			sourceTree = "<group>";
+		};
+		DB0C4E341FEA713C00F3D9F7 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				DB0C4E561FEA790B00F3D9F7 /* Bolts.framework */,
+				DB0C4E591FEA790B00F3D9F7 /* FBSDKCoreKit.framework */,
+				DB0C4E5C1FEA790C00F3D9F7 /* FBSDKLoginKit.framework */,
+				DB0C4E5B1FEA790C00F3D9F7 /* GoogleService-Info.plist */,
+				DB0C4E571FEA790B00F3D9F7 /* GoogleSignIn.bundle */,
+				DB0C4E581FEA790B00F3D9F7 /* GoogleSignIn.framework */,
+				DB0C4E5D1FEA790C00F3D9F7 /* GoogleSignInDependencies.framework */,
+				DB0C4E5A1FEA790B00F3D9F7 /* TwitterKit.framework */,
+				DB0C4E681FEA796800F3D9F7 /* TwitterCore.framework */,
+				DB0C4E421FEA72A200F3D9F7 /* Twitter.plist */,
+				DB0C4E431FEA72A200F3D9F7 /* TwitterKitResources.bundle */,
+				DB0C4E401FEA72A200F3D9F7 /* TwitterShareExtensionUIResources.bundle */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		DB0C4E491FEA72EF00F3D9F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB0C4E541FEA75F000F3D9F7 /* AVFoundation.framework */,
+				DB0C4E521FEA757A00F3D9F7 /* CoreMedia.framework */,
+				DB0C4E501FEA752200F3D9F7 /* Security.framework */,
+				DB0C4E4E1FEA751C00F3D9F7 /* SystemConfiguration.framework */,
+				DB0C4E4C1FEA750A00F3D9F7 /* MediaPlayer.framework */,
+				DB0C4E4A1FEA72F000F3D9F7 /* SafariServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB0C4E1A1FEA70F700F3D9F7 /* DOSigninFW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0C4E311FEA70F700F3D9F7 /* Build configuration list for PBXNativeTarget "DOSigninFW" */;
+			buildPhases = (
+				DB0C4E171FEA70F700F3D9F7 /* Sources */,
+				DB0C4E181FEA70F700F3D9F7 /* Frameworks */,
+				DB0C4E191FEA70F700F3D9F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DOSigninFW;
+			productName = DOSigninFW;
+			productReference = DB0C4E1B1FEA70F700F3D9F7 /* DOSigninFW.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB0C4E131FEA70F600F3D9F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = xiongze;
+				TargetAttributes = {
+					DB0C4E1A1FEA70F700F3D9F7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DB0C4E161FEA70F600F3D9F7 /* Build configuration list for PBXProject "DOSigninFW" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB0C4E121FEA70F600F3D9F7;
+			productRefGroup = DB0C4E1C1FEA70F700F3D9F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB0C4E1A1FEA70F700F3D9F7 /* DOSigninFW */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB0C4E191FEA70F700F3D9F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0C4E2B1FEA70F700F3D9F7 /* LaunchScreen.storyboard in Resources */,
+				DB0C4E641FEA790C00F3D9F7 /* GoogleService-Info.plist in Resources */,
+				DB0C4E281FEA70F700F3D9F7 /* Assets.xcassets in Resources */,
+				DB0C4E471FEA72A200F3D9F7 /* Twitter.plist in Resources */,
+				DB0C4E261FEA70F700F3D9F7 /* Main.storyboard in Resources */,
+				DB0C4E481FEA72A200F3D9F7 /* TwitterKitResources.bundle in Resources */,
+				DB0C4E601FEA790C00F3D9F7 /* GoogleSignIn.bundle in Resources */,
+				DB0C4E451FEA72A200F3D9F7 /* TwitterShareExtensionUIResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB0C4E171FEA70F700F3D9F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0C4E6D1FEA804F00F3D9F7 /* DOSigninManagerV2.m in Sources */,
+				DB0C4E231FEA70F700F3D9F7 /* ViewController.m in Sources */,
+				DB0C4E2E1FEA70F700F3D9F7 /* main.m in Sources */,
+				3441BB2E1FEB98D5008E8A4D /* AppDelegate+ThirdLogin.m in Sources */,
+				DB0C4E201FEA70F700F3D9F7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB0C4E241FEA70F700F3D9F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB0C4E251FEA70F700F3D9F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB0C4E291FEA70F700F3D9F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB0C4E2A1FEA70F700F3D9F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB0C4E2F1FEA70F700F3D9F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB0C4E301FEA70F700F3D9F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB0C4E321FEA70F700F3D9F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T65EE75V48;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				INFOPLIST_FILE = DOSigninFW/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Harute.Google-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB0C4E331FEA70F700F3D9F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T65EE75V48;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				INFOPLIST_FILE = DOSigninFW/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Harute.Google-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB0C4E161FEA70F600F3D9F7 /* Build configuration list for PBXProject "DOSigninFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0C4E2F1FEA70F700F3D9F7 /* Debug */,
+				DB0C4E301FEA70F700F3D9F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB0C4E311FEA70F700F3D9F7 /* Build configuration list for PBXNativeTarget "DOSigninFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0C4E321FEA70F700F3D9F7 /* Debug */,
+				DB0C4E331FEA70F700F3D9F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB0C4E131FEA70F600F3D9F7 /* Project object */;
+}

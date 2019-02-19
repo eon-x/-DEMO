@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		344559A820A44E620009ECE9 /* SearchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 344559A720A44E620009ECE9 /* SearchImage.m */; };
+		344559AB20A526DE0009ECE9 /* XImageClipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344559AA20A526DE0009ECE9 /* XImageClipViewController.m */; };
+		C7C167D91D2F51FF00B4943F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C167D81D2F51FF00B4943F /* main.m */; };
+		C7C167DC1D2F51FF00B4943F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C167DB1D2F51FF00B4943F /* AppDelegate.m */; };
+		C7C167DF1D2F51FF00B4943F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C167DE1D2F51FF00B4943F /* ViewController.m */; };
+		C7C167E21D2F51FF00B4943F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7C167E01D2F51FF00B4943F /* Main.storyboard */; };
+		C7C167E41D2F51FF00B4943F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7C167E31D2F51FF00B4943F /* Assets.xcassets */; };
+		C7C167E71D2F51FF00B4943F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7C167E51D2F51FF00B4943F /* LaunchScreen.storyboard */; };
+		C7C167F21D2F51FF00B4943F /* YYImageClipViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C167F11D2F51FF00B4943F /* YYImageClipViewControllerTests.m */; };
+		C7C167FD1D2F51FF00B4943F /* YYImageClipViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C167FC1D2F51FF00B4943F /* YYImageClipViewControllerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7C167EE1D2F51FF00B4943F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7C167CC1D2F51FF00B4943F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7C167D31D2F51FF00B4943F;
+			remoteInfo = YYImageClipViewController;
+		};
+		C7C167F91D2F51FF00B4943F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7C167CC1D2F51FF00B4943F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7C167D31D2F51FF00B4943F;
+			remoteInfo = YYImageClipViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		344559A620A44E620009ECE9 /* SearchImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchImage.h; sourceTree = "<group>"; };
+		344559A720A44E620009ECE9 /* SearchImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchImage.m; sourceTree = "<group>"; };
+		344559A920A526DE0009ECE9 /* XImageClipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XImageClipViewController.h; sourceTree = "<group>"; };
+		344559AA20A526DE0009ECE9 /* XImageClipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XImageClipViewController.m; sourceTree = "<group>"; };
+		C7C167D41D2F51FF00B4943F /* YYImageClipViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYImageClipViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7C167D81D2F51FF00B4943F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7C167DA1D2F51FF00B4943F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7C167DB1D2F51FF00B4943F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7C167DD1D2F51FF00B4943F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C7C167DE1D2F51FF00B4943F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7C167E11D2F51FF00B4943F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7C167E31D2F51FF00B4943F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7C167E61D2F51FF00B4943F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7C167E81D2F51FF00B4943F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7C167ED1D2F51FF00B4943F /* YYImageClipViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYImageClipViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7C167F11D2F51FF00B4943F /* YYImageClipViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYImageClipViewControllerTests.m; sourceTree = "<group>"; };
+		C7C167F31D2F51FF00B4943F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7C167F81D2F51FF00B4943F /* YYImageClipViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYImageClipViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7C167FC1D2F51FF00B4943F /* YYImageClipViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYImageClipViewControllerUITests.m; sourceTree = "<group>"; };
+		C7C167FE1D2F51FF00B4943F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7C167D11D2F51FF00B4943F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C167EA1D2F51FF00B4943F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C167F51D2F51FF00B4943F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		344559A220A44E4F0009ECE9 /* XSearchImage */ = {
+			isa = PBXGroup;
+			children = (
+				344559A620A44E620009ECE9 /* SearchImage.h */,
+				344559A720A44E620009ECE9 /* SearchImage.m */,
+				344559A920A526DE0009ECE9 /* XImageClipViewController.h */,
+				344559AA20A526DE0009ECE9 /* XImageClipViewController.m */,
+			);
+			path = XSearchImage;
+			sourceTree = "<group>";
+		};
+		C7C167CB1D2F51FF00B4943F = {
+			isa = PBXGroup;
+			children = (
+				C7C167D61D2F51FF00B4943F /* YYImageClipViewController */,
+				C7C167F01D2F51FF00B4943F /* YYImageClipViewControllerTests */,
+				C7C167FB1D2F51FF00B4943F /* YYImageClipViewControllerUITests */,
+				C7C167D51D2F51FF00B4943F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7C167D51D2F51FF00B4943F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7C167D41D2F51FF00B4943F /* YYImageClipViewController.app */,
+				C7C167ED1D2F51FF00B4943F /* YYImageClipViewControllerTests.xctest */,
+				C7C167F81D2F51FF00B4943F /* YYImageClipViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7C167D61D2F51FF00B4943F /* YYImageClipViewController */ = {
+			isa = PBXGroup;
+			children = (
+				344559A220A44E4F0009ECE9 /* XSearchImage */,
+				C7C167DA1D2F51FF00B4943F /* AppDelegate.h */,
+				C7C167DB1D2F51FF00B4943F /* AppDelegate.m */,
+				C7C167DD1D2F51FF00B4943F /* ViewController.h */,
+				C7C167DE1D2F51FF00B4943F /* ViewController.m */,
+				C7C167E01D2F51FF00B4943F /* Main.storyboard */,
+				C7C167E31D2F51FF00B4943F /* Assets.xcassets */,
+				C7C167E51D2F51FF00B4943F /* LaunchScreen.storyboard */,
+				C7C167E81D2F51FF00B4943F /* Info.plist */,
+				C7C167D71D2F51FF00B4943F /* Supporting Files */,
+			);
+			path = YYImageClipViewController;
+			sourceTree = "<group>";
+		};
+		C7C167D71D2F51FF00B4943F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7C167D81D2F51FF00B4943F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7C167F01D2F51FF00B4943F /* YYImageClipViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7C167F11D2F51FF00B4943F /* YYImageClipViewControllerTests.m */,
+				C7C167F31D2F51FF00B4943F /* Info.plist */,
+			);
+			path = YYImageClipViewControllerTests;
+			sourceTree = "<group>";
+		};
+		C7C167FB1D2F51FF00B4943F /* YYImageClipViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7C167FC1D2F51FF00B4943F /* YYImageClipViewControllerUITests.m */,
+				C7C167FE1D2F51FF00B4943F /* Info.plist */,
+			);
+			path = YYImageClipViewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7C167D31D2F51FF00B4943F /* YYImageClipViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7C168011D2F51FF00B4943F /* Build configuration list for PBXNativeTarget "YYImageClipViewController" */;
+			buildPhases = (
+				C7C167D01D2F51FF00B4943F /* Sources */,
+				C7C167D11D2F51FF00B4943F /* Frameworks */,
+				C7C167D21D2F51FF00B4943F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYImageClipViewController;
+			productName = YYImageClipViewController;
+			productReference = C7C167D41D2F51FF00B4943F /* YYImageClipViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7C167EC1D2F51FF00B4943F /* YYImageClipViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7C168041D2F51FF00B4943F /* Build configuration list for PBXNativeTarget "YYImageClipViewControllerTests" */;
+			buildPhases = (
+				C7C167E91D2F51FF00B4943F /* Sources */,
+				C7C167EA1D2F51FF00B4943F /* Frameworks */,
+				C7C167EB1D2F51FF00B4943F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7C167EF1D2F51FF00B4943F /* PBXTargetDependency */,
+			);
+			name = YYImageClipViewControllerTests;
+			productName = YYImageClipViewControllerTests;
+			productReference = C7C167ED1D2F51FF00B4943F /* YYImageClipViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7C167F71D2F51FF00B4943F /* YYImageClipViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7C168071D2F51FF00B4943F /* Build configuration list for PBXNativeTarget "YYImageClipViewControllerUITests" */;
+			buildPhases = (
+				C7C167F41D2F51FF00B4943F /* Sources */,
+				C7C167F51D2F51FF00B4943F /* Frameworks */,
+				C7C167F61D2F51FF00B4943F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7C167FA1D2F51FF00B4943F /* PBXTargetDependency */,
+			);
+			name = YYImageClipViewControllerUITests;
+			productName = YYImageClipViewControllerUITests;
+			productReference = C7C167F81D2F51FF00B4943F /* YYImageClipViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7C167CC1D2F51FF00B4943F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "杨健";
+				TargetAttributes = {
+					C7C167D31D2F51FF00B4943F = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = T65EE75V48;
+					};
+					C7C167EC1D2F51FF00B4943F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = C7C167D31D2F51FF00B4943F;
+					};
+					C7C167F71D2F51FF00B4943F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = C7C167D31D2F51FF00B4943F;
+					};
+				};
+			};
+			buildConfigurationList = C7C167CF1D2F51FF00B4943F /* Build configuration list for PBXProject "YYImageClipViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7C167CB1D2F51FF00B4943F;
+			productRefGroup = C7C167D51D2F51FF00B4943F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7C167D31D2F51FF00B4943F /* YYImageClipViewController */,
+				C7C167EC1D2F51FF00B4943F /* YYImageClipViewControllerTests */,
+				C7C167F71D2F51FF00B4943F /* YYImageClipViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7C167D21D2F51FF00B4943F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C167E71D2F51FF00B4943F /* LaunchScreen.storyboard in Resources */,
+				C7C167E41D2F51FF00B4943F /* Assets.xcassets in Resources */,
+				C7C167E21D2F51FF00B4943F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C167EB1D2F51FF00B4943F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C167F61D2F51FF00B4943F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7C167D01D2F51FF00B4943F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C167DF1D2F51FF00B4943F /* ViewController.m in Sources */,
+				C7C167DC1D2F51FF00B4943F /* AppDelegate.m in Sources */,
+				344559A820A44E620009ECE9 /* SearchImage.m in Sources */,
+				C7C167D91D2F51FF00B4943F /* main.m in Sources */,
+				344559AB20A526DE0009ECE9 /* XImageClipViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C167E91D2F51FF00B4943F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C167F21D2F51FF00B4943F /* YYImageClipViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C167F41D2F51FF00B4943F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C167FD1D2F51FF00B4943F /* YYImageClipViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7C167EF1D2F51FF00B4943F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7C167D31D2F51FF00B4943F /* YYImageClipViewController */;
+			targetProxy = C7C167EE1D2F51FF00B4943F /* PBXContainerItemProxy */;
+		};
+		C7C167FA1D2F51FF00B4943F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7C167D31D2F51FF00B4943F /* YYImageClipViewController */;
+			targetProxy = C7C167F91D2F51FF00B4943F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7C167E01D2F51FF00B4943F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7C167E11D2F51FF00B4943F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7C167E51D2F51FF00B4943F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7C167E61D2F51FF00B4943F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7C167FF1D2F51FF00B4943F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7C168001D2F51FF00B4943F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7C168021D2F51FF00B4943F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T65EE75V48;
+				INFOPLIST_FILE = YYImageClipViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ido.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C7C168031D2F51FF00B4943F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T65EE75V48;
+				INFOPLIST_FILE = YYImageClipViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ido.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C7C168051D2F51FF00B4943F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YYImageClipViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aircos.www.YYImageClipViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYImageClipViewController.app/YYImageClipViewController";
+			};
+			name = Debug;
+		};
+		C7C168061D2F51FF00B4943F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YYImageClipViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aircos.www.YYImageClipViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYImageClipViewController.app/YYImageClipViewController";
+			};
+			name = Release;
+		};
+		C7C168081D2F51FF00B4943F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YYImageClipViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aircos.www.YYImageClipViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YYImageClipViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C7C168091D2F51FF00B4943F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YYImageClipViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aircos.www.YYImageClipViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YYImageClipViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7C167CF1D2F51FF00B4943F /* Build configuration list for PBXProject "YYImageClipViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7C167FF1D2F51FF00B4943F /* Debug */,
+				C7C168001D2F51FF00B4943F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7C168011D2F51FF00B4943F /* Build configuration list for PBXNativeTarget "YYImageClipViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7C168021D2F51FF00B4943F /* Debug */,
+				C7C168031D2F51FF00B4943F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7C168041D2F51FF00B4943F /* Build configuration list for PBXNativeTarget "YYImageClipViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7C168051D2F51FF00B4943F /* Debug */,
+				C7C168061D2F51FF00B4943F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7C168071D2F51FF00B4943F /* Build configuration list for PBXNativeTarget "YYImageClipViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7C168081D2F51FF00B4943F /* Debug */,
+				C7C168091D2F51FF00B4943F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7C167CC1D2F51FF00B4943F /* Project object */;
+}

@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B5527F61CA0D2B400E6C38F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5527F51CA0D2B400E6C38F /* main.m */; };
+		5B5527F91CA0D2B400E6C38F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5527F81CA0D2B400E6C38F /* AppDelegate.m */; };
+		5B5527FC1CA0D2B400E6C38F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5527FB1CA0D2B400E6C38F /* ViewController.m */; };
+		5B5527FF1CA0D2B400E6C38F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5527FD1CA0D2B400E6C38F /* Main.storyboard */; };
+		5B5528011CA0D2B400E6C38F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B5528001CA0D2B400E6C38F /* Assets.xcassets */; };
+		5B5528041CA0D2B400E6C38F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5528021CA0D2B400E6C38F /* LaunchScreen.storyboard */; };
+		5B55280F1CA0D2B400E6C38F /* SeptCamera_ZOOMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B55280E1CA0D2B400E6C38F /* SeptCamera_ZOOMTests.m */; };
+		5B55281A1CA0D2B400E6C38F /* SeptCamera_ZOOMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5528191CA0D2B400E6C38F /* SeptCamera_ZOOMUITests.m */; };
+		5B55282C1CA0D34000E6C38F /* JYCameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5528291CA0D34000E6C38F /* JYCameraManager.m */; };
+		5B55282D1CA0D34000E6C38F /* JYPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B55282B1CA0D34000E6C38F /* JYPreviewView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B55280B1CA0D2B400E6C38F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B5527E91CA0D2B300E6C38F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B5527F01CA0D2B300E6C38F;
+			remoteInfo = SeptCamera_ZOOM;
+		};
+		5B5528161CA0D2B400E6C38F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B5527E91CA0D2B300E6C38F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B5527F01CA0D2B300E6C38F;
+			remoteInfo = SeptCamera_ZOOM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B5527F11CA0D2B300E6C38F /* SeptCamera_ZOOM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeptCamera_ZOOM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B5527F51CA0D2B400E6C38F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B5527F71CA0D2B400E6C38F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B5527F81CA0D2B400E6C38F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B5527FA1CA0D2B400E6C38F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B5527FB1CA0D2B400E6C38F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5B5527FE1CA0D2B400E6C38F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B5528001CA0D2B400E6C38F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B5528031CA0D2B400E6C38F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B5528051CA0D2B400E6C38F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B55280A1CA0D2B400E6C38F /* SeptCamera_ZOOMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeptCamera_ZOOMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B55280E1CA0D2B400E6C38F /* SeptCamera_ZOOMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeptCamera_ZOOMTests.m; sourceTree = "<group>"; };
+		5B5528101CA0D2B400E6C38F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B5528151CA0D2B400E6C38F /* SeptCamera_ZOOMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeptCamera_ZOOMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B5528191CA0D2B400E6C38F /* SeptCamera_ZOOMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeptCamera_ZOOMUITests.m; sourceTree = "<group>"; };
+		5B55281B1CA0D2B400E6C38F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B5528281CA0D34000E6C38F /* JYCameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYCameraManager.h; sourceTree = "<group>"; };
+		5B5528291CA0D34000E6C38F /* JYCameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYCameraManager.m; sourceTree = "<group>"; };
+		5B55282A1CA0D34000E6C38F /* JYPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYPreviewView.h; sourceTree = "<group>"; };
+		5B55282B1CA0D34000E6C38F /* JYPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYPreviewView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B5527EE1CA0D2B300E6C38F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5528071CA0D2B400E6C38F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5528121CA0D2B400E6C38F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B5527E81CA0D2B300E6C38F = {
+			isa = PBXGroup;
+			children = (
+				5B5527F31CA0D2B400E6C38F /* SeptCamera_ZOOM */,
+				5B55280D1CA0D2B400E6C38F /* SeptCamera_ZOOMTests */,
+				5B5528181CA0D2B400E6C38F /* SeptCamera_ZOOMUITests */,
+				5B5527F21CA0D2B300E6C38F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B5527F21CA0D2B300E6C38F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B5527F11CA0D2B300E6C38F /* SeptCamera_ZOOM.app */,
+				5B55280A1CA0D2B400E6C38F /* SeptCamera_ZOOMTests.xctest */,
+				5B5528151CA0D2B400E6C38F /* SeptCamera_ZOOMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B5527F31CA0D2B400E6C38F /* SeptCamera_ZOOM */ = {
+			isa = PBXGroup;
+			children = (
+				5B5528271CA0D34000E6C38F /* Camere */,
+				5B5527F71CA0D2B400E6C38F /* AppDelegate.h */,
+				5B5527F81CA0D2B400E6C38F /* AppDelegate.m */,
+				5B5527FA1CA0D2B400E6C38F /* ViewController.h */,
+				5B5527FB1CA0D2B400E6C38F /* ViewController.m */,
+				5B5527FD1CA0D2B400E6C38F /* Main.storyboard */,
+				5B5528001CA0D2B400E6C38F /* Assets.xcassets */,
+				5B5528021CA0D2B400E6C38F /* LaunchScreen.storyboard */,
+				5B5528051CA0D2B400E6C38F /* Info.plist */,
+				5B5527F41CA0D2B400E6C38F /* Supporting Files */,
+			);
+			path = SeptCamera_ZOOM;
+			sourceTree = "<group>";
+		};
+		5B5527F41CA0D2B400E6C38F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B5527F51CA0D2B400E6C38F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B55280D1CA0D2B400E6C38F /* SeptCamera_ZOOMTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B55280E1CA0D2B400E6C38F /* SeptCamera_ZOOMTests.m */,
+				5B5528101CA0D2B400E6C38F /* Info.plist */,
+			);
+			path = SeptCamera_ZOOMTests;
+			sourceTree = "<group>";
+		};
+		5B5528181CA0D2B400E6C38F /* SeptCamera_ZOOMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B5528191CA0D2B400E6C38F /* SeptCamera_ZOOMUITests.m */,
+				5B55281B1CA0D2B400E6C38F /* Info.plist */,
+			);
+			path = SeptCamera_ZOOMUITests;
+			sourceTree = "<group>";
+		};
+		5B5528271CA0D34000E6C38F /* Camere */ = {
+			isa = PBXGroup;
+			children = (
+				5B5528281CA0D34000E6C38F /* JYCameraManager.h */,
+				5B5528291CA0D34000E6C38F /* JYCameraManager.m */,
+				5B55282A1CA0D34000E6C38F /* JYPreviewView.h */,
+				5B55282B1CA0D34000E6C38F /* JYPreviewView.m */,
+			);
+			path = Camere;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B5527F01CA0D2B300E6C38F /* SeptCamera_ZOOM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B55281E1CA0D2B400E6C38F /* Build configuration list for PBXNativeTarget "SeptCamera_ZOOM" */;
+			buildPhases = (
+				5B5527ED1CA0D2B300E6C38F /* Sources */,
+				5B5527EE1CA0D2B300E6C38F /* Frameworks */,
+				5B5527EF1CA0D2B300E6C38F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeptCamera_ZOOM;
+			productName = SeptCamera_ZOOM;
+			productReference = 5B5527F11CA0D2B300E6C38F /* SeptCamera_ZOOM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B5528091CA0D2B400E6C38F /* SeptCamera_ZOOMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B5528211CA0D2B400E6C38F /* Build configuration list for PBXNativeTarget "SeptCamera_ZOOMTests" */;
+			buildPhases = (
+				5B5528061CA0D2B400E6C38F /* Sources */,
+				5B5528071CA0D2B400E6C38F /* Frameworks */,
+				5B5528081CA0D2B400E6C38F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B55280C1CA0D2B400E6C38F /* PBXTargetDependency */,
+			);
+			name = SeptCamera_ZOOMTests;
+			productName = SeptCamera_ZOOMTests;
+			productReference = 5B55280A1CA0D2B400E6C38F /* SeptCamera_ZOOMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B5528141CA0D2B400E6C38F /* SeptCamera_ZOOMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B5528241CA0D2B400E6C38F /* Build configuration list for PBXNativeTarget "SeptCamera_ZOOMUITests" */;
+			buildPhases = (
+				5B5528111CA0D2B400E6C38F /* Sources */,
+				5B5528121CA0D2B400E6C38F /* Frameworks */,
+				5B5528131CA0D2B400E6C38F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B5528171CA0D2B400E6C38F /* PBXTargetDependency */,
+			);
+			name = SeptCamera_ZOOMUITests;
+			productName = SeptCamera_ZOOMUITests;
+			productReference = 5B5528151CA0D2B400E6C38F /* SeptCamera_ZOOMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B5527E91CA0D2B300E6C38F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "九月";
+				TargetAttributes = {
+					5B5527F01CA0D2B300E6C38F = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = T65EE75V48;
+					};
+					5B5528091CA0D2B400E6C38F = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 6P9MQLZBKJ;
+						TestTargetID = 5B5527F01CA0D2B300E6C38F;
+					};
+					5B5528141CA0D2B400E6C38F = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 6P9MQLZBKJ;
+						TestTargetID = 5B5527F01CA0D2B300E6C38F;
+					};
+				};
+			};
+			buildConfigurationList = 5B5527EC1CA0D2B300E6C38F /* Build configuration list for PBXProject "SeptCamera_ZOOM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B5527E81CA0D2B300E6C38F;
+			productRefGroup = 5B5527F21CA0D2B300E6C38F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B5527F01CA0D2B300E6C38F /* SeptCamera_ZOOM */,
+				5B5528091CA0D2B400E6C38F /* SeptCamera_ZOOMTests */,
+				5B5528141CA0D2B400E6C38F /* SeptCamera_ZOOMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B5527EF1CA0D2B300E6C38F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5528041CA0D2B400E6C38F /* LaunchScreen.storyboard in Resources */,
+				5B5528011CA0D2B400E6C38F /* Assets.xcassets in Resources */,
+				5B5527FF1CA0D2B400E6C38F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5528081CA0D2B400E6C38F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5528131CA0D2B400E6C38F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B5527ED1CA0D2B300E6C38F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5527FC1CA0D2B400E6C38F /* ViewController.m in Sources */,
+				5B5527F91CA0D2B400E6C38F /* AppDelegate.m in Sources */,
+				5B5527F61CA0D2B400E6C38F /* main.m in Sources */,
+				5B55282D1CA0D34000E6C38F /* JYPreviewView.m in Sources */,
+				5B55282C1CA0D34000E6C38F /* JYCameraManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5528061CA0D2B400E6C38F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B55280F1CA0D2B400E6C38F /* SeptCamera_ZOOMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5528111CA0D2B400E6C38F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B55281A1CA0D2B400E6C38F /* SeptCamera_ZOOMUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B55280C1CA0D2B400E6C38F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B5527F01CA0D2B300E6C38F /* SeptCamera_ZOOM */;
+			targetProxy = 5B55280B1CA0D2B400E6C38F /* PBXContainerItemProxy */;
+		};
+		5B5528171CA0D2B400E6C38F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B5527F01CA0D2B300E6C38F /* SeptCamera_ZOOM */;
+			targetProxy = 5B5528161CA0D2B400E6C38F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B5527FD1CA0D2B400E6C38F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B5527FE1CA0D2B400E6C38F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B5528021CA0D2B400E6C38F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B5528031CA0D2B400E6C38F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B55281C1CA0D2B400E6C38F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B55281D1CA0D2B400E6C38F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B55281F1CA0D2B400E6C38F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T65EE75V48;
+				INFOPLIST_FILE = SeptCamera_ZOOM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dspone.gotet1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B5528201CA0D2B400E6C38F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T65EE75V48;
+				INFOPLIST_FILE = SeptCamera_ZOOM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dspone.gotet1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5B5528221CA0D2B400E6C38F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SeptCamera_ZOOMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sept.SeptCamera-ZOOMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeptCamera_ZOOM.app/SeptCamera_ZOOM";
+			};
+			name = Debug;
+		};
+		5B5528231CA0D2B400E6C38F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SeptCamera_ZOOMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sept.SeptCamera-ZOOMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeptCamera_ZOOM.app/SeptCamera_ZOOM";
+			};
+			name = Release;
+		};
+		5B5528251CA0D2B400E6C38F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SeptCamera_ZOOMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sept.SeptCamera-ZOOMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SeptCamera_ZOOM;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5B5528261CA0D2B400E6C38F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SeptCamera_ZOOMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sept.SeptCamera-ZOOMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SeptCamera_ZOOM;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B5527EC1CA0D2B300E6C38F /* Build configuration list for PBXProject "SeptCamera_ZOOM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B55281C1CA0D2B400E6C38F /* Debug */,
+				5B55281D1CA0D2B400E6C38F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B55281E1CA0D2B400E6C38F /* Build configuration list for PBXNativeTarget "SeptCamera_ZOOM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B55281F1CA0D2B400E6C38F /* Debug */,
+				5B5528201CA0D2B400E6C38F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B5528211CA0D2B400E6C38F /* Build configuration list for PBXNativeTarget "SeptCamera_ZOOMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5528221CA0D2B400E6C38F /* Debug */,
+				5B5528231CA0D2B400E6C38F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B5528241CA0D2B400E6C38F /* Build configuration list for PBXNativeTarget "SeptCamera_ZOOMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5528251CA0D2B400E6C38F /* Debug */,
+				5B5528261CA0D2B400E6C38F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B5527E91CA0D2B300E6C38F /* Project object */;
+}
