@@ -18,7 +18,6 @@
 		008ECD271E6EA14300FE5A98 /* MJDIYAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 008ECD241E6EA14300FE5A98 /* MJDIYAutoFooter.m */; };
 		008ECD281E6EA14300FE5A98 /* MJDIYHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 008ECD261E6EA14300FE5A98 /* MJDIYHeader.m */; };
 		D994AC9AE264F98D883FAA75 /* libPods-ShoppingDetailsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C47DFCAE12C8B6F3DE71EE36 /* libPods-ShoppingDetailsDemo.a */; };
-		FB6B6420219E68B100C15BF0 /* 55.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB6B641F219E68B100C15BF0 /* 55.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +61,6 @@
 		9EB9888BA41A74E147330EAE /* Pods-ShoppingDetailsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingDetailsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShoppingDetailsDemo/Pods-ShoppingDetailsDemo.release.xcconfig"; sourceTree = "<group>"; };
 		AAC31EC4CA4C0087A852E1DE /* Pods-ShoppingDetailsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingDetailsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShoppingDetailsDemo/Pods-ShoppingDetailsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C47DFCAE12C8B6F3DE71EE36 /* libPods-ShoppingDetailsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShoppingDetailsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB6B641F219E68B100C15BF0 /* 55.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 55.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +126,6 @@
 				008ECCFC1E6E9E1900FE5A98 /* Assets.xcassets */,
 				008ECCFE1E6E9E1900FE5A98 /* LaunchScreen.storyboard */,
 				008ECD011E6E9E1900FE5A98 /* Info.plist */,
-				FB6B641F219E68B100C15BF0 /* 55.jpg */,
 				008ECCF01E6E9E1900FE5A98 /* Supporting Files */,
 			);
 			path = ShoppingDetailsDemo;
@@ -292,7 +289,6 @@
 				008ECD001E6E9E1900FE5A98 /* LaunchScreen.storyboard in Resources */,
 				008ECCFD1E6E9E1900FE5A98 /* Assets.xcassets in Resources */,
 				008ECCFB1E6E9E1900FE5A98 /* Main.storyboard in Resources */,
-				FB6B6420219E68B100C15BF0 /* 55.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

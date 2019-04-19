@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="qHY-rC-pGE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="qHY-rC-pGE">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -49,22 +49,6 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="500" id="TBF-dd-5yx"/>
                                                 </constraints>
-                                                <view key="tableFooterView" contentMode="scaleToFill" id="FRo-Wz-JDp">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="55.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Q5j-tt-TCu">
-                                                            <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
-                                                        </imageView>
-                                                    </subviews>
-                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="bottom" secondItem="Q5j-tt-TCu" secondAttribute="bottom" id="HH1-iX-Ekg"/>
-                                                        <constraint firstItem="Q5j-tt-TCu" firstAttribute="leading" secondItem="FRo-Wz-JDp" secondAttribute="leading" id="NpI-xt-09e"/>
-                                                        <constraint firstItem="Q5j-tt-TCu" firstAttribute="top" secondItem="FRo-Wz-JDp" secondAttribute="top" id="tSU-I8-ytT"/>
-                                                        <constraint firstAttribute="trailing" secondItem="Q5j-tt-TCu" secondAttribute="trailing" id="tho-XY-d7j"/>
-                                                    </constraints>
-                                                </view>
                                                 <connections>
                                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="XXC-fD-UcG"/>
                                                     <outlet property="delegate" destination="BYZ-38-t0r" id="KQr-z8-1oL"/>
@@ -123,7 +107,6 @@
                     </view>
                     <navigationItem key="navigationItem" title="商品详情页" id="0SF-9d-ZYI"/>
                     <connections>
-                        <outlet property="headerView" destination="FRo-Wz-JDp" id="x7D-ET-FZr"/>
                         <outlet property="insideView" destination="iLM-gO-9bj" id="WOa-Xq-PgE"/>
                         <outlet property="insideViewHeight" destination="dXB-7H-KaH" id="V2O-Tx-gsj"/>
                         <outlet property="parameterTableView" destination="tfZ-vR-Scc" id="eml-Jn-WBF"/>
@@ -138,7 +121,4 @@
             <point key="canvasLocation" x="140" y="139"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="55.jpg" width="720" height="405"/>
-    </resources>
 </document>
