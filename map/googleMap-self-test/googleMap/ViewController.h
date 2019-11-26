@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "IDOGoogleMapManage.h"
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) IDOGoogleMapManage *googleMapManage;
 
 @end
+
 
