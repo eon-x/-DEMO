@@ -1,0 +1,10 @@
+platform :ios, '9.0'
+
+target 'sTest' do
+
+use_frameworks!
+
+pod 'Alamofire', '~> 1.2'
+pod 'SwiftyJSON', '~> 2.2.0'
+
+end

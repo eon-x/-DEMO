@@ -1,0 +1,19 @@
+Xcode: missing required module error
+https://stackoverflow.com/questions/43306779/xcode-missing-required-module-error/43457208
+
+方案一：XXXXX
+在header search paths 添加以下路径 打包：
+$(SRCROOT)/IDOBlueUpdate/iOSDFULibrary/Utilities/HexToBinConverter
+$(SRCROOT)/IDOBlueUpdate/iOSDFULibrary/Zip/minizip
+
+方案二：XXXXX
+Other Swift Flag
+设置：
+-fmodule-map-file=../Embedded/IDOBlueUpdate.framework/Modules/module.modulemap
+
+"$(inherited) -Xcc -fmodule-map-file=\"../Embedded/IDOBlueUpdate.framework/Modules/module.modulemap\" -Xcc "
+方案三：XXXXX
+添加一个辅助fw，里面设置module map 路径（路径只有zip的），打包；
+
+
+后续，尝试Pod 混编的项目试试。。。。
